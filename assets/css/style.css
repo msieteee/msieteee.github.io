@@ -1,6 +1,7 @@
 html, body{
 	height: 100%;
 	width: 100%;
+	background-color: black;
 }
 
 .no-padding{
@@ -8,6 +9,6 @@ html, body{
 }
 
 img{
-	width: 100%;
-	height: auto;
+	width: auto;
+	height: 100%;
 }
