@@ -10,5 +10,17 @@ html, body{
 
 img{
 	width: auto;
-	height: 100%;
+	height: 540px;
+}
+
+.straight-fire {
+    height: 250px;
+    background-image: url('http://static.tumblr.com/ylk3wsj/C0jo7z2ep/fire.gif');
+    background-repeat: repeat-x;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: red;
+    font-weight: 700;
+    font-size: 2em;
 }
