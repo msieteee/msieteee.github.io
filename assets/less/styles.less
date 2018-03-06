@@ -1,0 +1,104 @@
+@font-face {
+    font-family: Helvetica Neue;
+    src: url('../fonts/Helvetica-Neue-Bold.ttf');
+}
+
+@font-face {
+    font-family: Open Sans Regular;
+    src: url('../fonts/OpenSans-Regular.ttf');
+}
+
+@font-face {
+    font-family: Open Sans Light;
+    src: url('../fonts/OpenSans-Light.ttf');
+}
+
+html, body{
+	height: 100%;
+	width: 100%;
+}
+
+.icon{
+	&-sm{
+		font-size: 2em;
+	}
+}
+
+#navigation{	
+	padding-top: 4vh;
+	padding-bottom: 7vh;
+	
+	& nav{
+		background-color: transparent;
+		border: none;
+		outline: none;
+
+		& .navbar{
+			&-header{
+				float: none;
+			}
+
+			&-brand{
+				float: none;
+				font-family: Helvetica Neue;
+				font-size: 2.5em;
+
+				// letter-spacing: 0.2em;
+				text-transform: uppercase;
+				text-align: center;
+
+				font-weight: 300;
+
+				background: none;
+				color: black;
+
+				margin: 0px;
+				&:hover{
+					background: none;
+					color: black;
+				}
+
+				& span{
+					color: grey;
+				}
+				& strong{
+					color: black;
+				}
+			}
+		}
+
+		& #search{
+			margin-top: 1.5vh;
+		}
+	}
+
+	& .navbar .navbar-nav {
+		display: inline-block;
+		float: none;
+		vertical-align: top;
+
+		& li > a{
+			background-color: transparent;
+			margin: 0px;
+			margin-top: 3.5vh;
+
+			padding-left: 6vh;
+			padding-right: 6vh;
+
+			font-family: Open Sans Regular;
+
+			text-transform: lowercase;	
+		}
+	}
+
+	& .navbar .navbar-collapse {
+		text-align: center;
+	}
+
+}
+
+#profile{
+	& p{
+		font-family: Open Sans Regular;
+	}
+}
